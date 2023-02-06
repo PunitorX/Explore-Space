@@ -1,0 +1,25 @@
+@mixin s-mobile 
+  @media screen and (min-width: 320px)
+
+  // smartphones, landscape iPhones and Androids
+@mixin m-mobile 
+  @media screen and (min-width: 480px)
+
+  // portrait tablets, iPads, e-readers
+@mixin l-mobile 
+  @media screen and (min-width: 600px)
+
+  // tablets, landscape iPads, lo-res laptops/desktops
+@mixin tablet 
+  @media screen and (min-width: 768px)
+
+  // landscape tablets, laptops, and desktops
+@mixin laptop
+  @media screen and (min-width: 1025px)
+
+  // hi-res laptops and desktops
+@mixin desktop 
+  @media screen and (min-width: 1281px) 
+    @content  
+  
+
