@@ -3,7 +3,7 @@ import iconTwo from '../icons/023-comet.png'
 import iconThree from '../icons/035-astronomer.png'
 import iconFour from '../icons/030-planets.png'
 import iconFive from '../icons/047-space-exploration.png'
-import iconSix from '../icons/050-telescope-2.png'
+import iconSix from '../icons/048-constellation-1.png'
 
 export const NavData = [
   {
@@ -13,7 +13,7 @@ export const NavData = [
     icon: iconOne
   },
   {
-    title: 'Astronomical Object',
+    title: 'Astronomical Objects',
     path: '/objects',
     cName: 'navItem',
     icon: iconTwo
