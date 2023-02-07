@@ -1,6 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
+// * Component Imports
+import SideNav from './components/SideNav';
+
 // * Page Imports
 import HomePage from './pages/HomePage'
 
@@ -26,6 +29,7 @@ import Satellites from './pages/Satellites/Satellites'
 function App() {
   return (
     <Router>
+      <SideNav />
       <Routes>
         <Route path='/' element={<HomePage />} />
 
@@ -36,7 +40,7 @@ function App() {
 
         <Route path='/stars' element={<Stars />} />
         <Route path='/satellites' element={<Satellites />} />
-        <Route path='/Astronomers' element={<Astronomers />} />
+        <Route path='/astronomers' element={<Astronomers />} />
         <Route path='/objects' element={<Objects />} />
         <Route path='/galaxies' element={<Galaxies />} />
 

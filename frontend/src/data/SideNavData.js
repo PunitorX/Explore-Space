@@ -1,9 +1,9 @@
-import iconOne from '../Icons/009-galaxy-1.png'
-import iconTwo from '../Icons/023-comet.png'
-import iconThree from '../Icons/035-astronomer.png'
-import iconFour from '../Icons/030-planets.png'
-import iconFive from '../Icons/047-space-exploration.png'
-import iconSix from '../Icons/050-telescope-2.png'
+import iconOne from '../icons/009-galaxy-1.png'
+import iconTwo from '../icons/023-comet.png'
+import iconThree from '../icons/035-astronomer.png'
+import iconFour from '../icons/030-planets.png'
+import iconFive from '../icons/047-space-exploration.png'
+import iconSix from '../icons/050-telescope-2.png'
 
 export const NavData = [
   {

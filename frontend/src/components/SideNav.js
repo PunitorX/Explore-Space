@@ -1,9 +1,11 @@
-import '../styles/SideNav.sass'
-import '../variables/Variables.sass'
-import '../variables/MediaQueries.sass'
+import '../styles/SideNav.css'
+import '../variables/Variables.css'
+import '../variables/MediaQueries.css'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { NavData } from '../data/SideNavData'
+import iconOne from '../icons/052-menu.png'
+import iconTwo from '../icons/051-close.png'
 
 const SideNav = () => {
   const [sideBar, setSideBar] = useState(false)
@@ -14,14 +16,14 @@ const SideNav = () => {
     <>
       <div className='navbar'>
         <Link to='#' className='menuBars'>
-          <img src="" alt="" />
+          <img src={iconOne} onClick={showSideBar} />
         </Link>
       </div>
-      <nav className={sideBar ? '' : 'menuBars'}>
-        <ul>
-          <li>
-            <Link>
-              <img src="" alt="" />
+      {/* <nav className={sideBar ? 'navMenu active' : 'navMenu'}>
+        <ul className='navList' onClick={showSideBar}>
+          <li className='navbarToggle'>
+            <Link to='#' className='menuBars'>
+              <img src={iconTwo} alt="" />
             </Link>
           </li>
           {NavData.map((item, index) => {
@@ -35,7 +37,7 @@ const SideNav = () => {
             )
           })}
         </ul>
-      </nav>
+      </nav> */}
     </>
   )
 }
