@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 // * Component Imports
-import SideNav from './components/SideNav';
+import { SideNav } from './components/SideNav';
 
 // * Page Imports
 import HomePage from './pages/HomePage'
@@ -31,7 +31,7 @@ function App() {
     <Router>
       <SideNav />
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        {/* <Route path='/' element={<HomePage />} /> */}
 
         <Route path='/planets'>
           <Route index element={<Planets />} />

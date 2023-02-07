@@ -1,45 +1,43 @@
 import '../styles/SideNav.css'
-import '../variables/Variables.css'
-import '../variables/MediaQueries.css'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { NavData } from '../data/SideNavData'
+
+import  { NavData } from '../data/SideNavData'
+
 import iconOne from '../icons/052-menu.png'
 import iconTwo from '../icons/051-close.png'
 
-const SideNav = () => {
-  const [sideBar, setSideBar] = useState(false)
+export const SideNav = () => {
+  const [sidebar, setSidebar] = useState(false)
 
-  const showSideBar = () => setSideBar(!sideBar)
+  const showSidebar = () => setSidebar(!sidebar)
 
   return (
     <>
       <div className='navbar'>
         <Link to='#' className='menuBars'>
-          <img src={iconOne} onClick={showSideBar} />
+          <img src={iconOne} onClick={showSidebar} />
         </Link>
       </div>
-      {/* <nav className={sideBar ? 'navMenu active' : 'navMenu'}>
-        <ul className='navList' onClick={showSideBar}>
-          <li className='navbarToggle'>
+      <nav className={sidebar ? 'navMenuActive' : 'navMenu'}>
+        <ul className='navItems'>
+          <li className='navToggle'>
             <Link to='#' className='menuBars'>
-              <img src={iconTwo} alt="" />
+              <img src={iconTwo} onClick={showSidebar} />
             </Link>
-          </li>
-          {NavData.map((item, index) => {
-            return (
-              <li key={index} className={item.cName}>
+            {NavData.map((item, index) => {
+              return (
+               <li key={index} className={item.cName}>
                 <Link to={item.path}>
                   <img src={item.icon} alt="" />
                   <span>{item.title}</span>
                 </Link>
-              </li>
-            )
-          })}
+               </li>
+              )
+            })}
+          </li>
         </ul>
-      </nav> */}
+      </nav>
     </>
   )
 }
-
-export default SideNav
