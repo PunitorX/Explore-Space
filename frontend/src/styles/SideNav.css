@@ -13,8 +13,10 @@ img {
 }
 
 .menuBars {
+  height: 100%;
+  display: flex;
+  align-items: center;
   margin-left: 2rem;
-  font-size: 2rem;
   background: none;
 }
 
@@ -24,7 +26,7 @@ img {
 
 .navMenuActive {
   background-color: #3F0071;
-  width: 250px;
+  width: 285px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -32,29 +34,42 @@ img {
   top: 0;
   left: 0%;
   transition: 850ms;
+  overflow: auto;
+}
+.navMenuActive::-webkit-scrollbar {
+  height: 10px;
+}
+.navMenuActive::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-top: 60px solid green;
 }
 
 .navItem {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 8px 0 8px 16px;
+  padding: 1rem;
   list-style: none;
-  height: 60px;
+  height: auto;
 }
 .navItem a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.2rem;
+  font-family: "Itim", cursive;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
   width: 95%;
-  height: 100%;
+  height: 60px;
   display: flex;
   align-items: center;
-  padding: 0 1rem;
+  padding-left: 1rem;
   border-radius: 4px;
+  transition: all 0.2s ease-in;
 }
 .navItem a:hover {
-  background-color: #1a83ff;
+  transition: all 0.2s ease-in;
+  color: #000000;
+  background-color: #FB2576;
 }
 
 .navList {
@@ -62,8 +77,6 @@ img {
 }
 
 .navToggle {
-  background-color: #3F0071;
-  width: 100%;
   height: 80px;
   display: flex;
   justify-content: start;

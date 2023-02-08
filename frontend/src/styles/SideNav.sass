@@ -1,4 +1,5 @@
 @import '../variables/Variables'
+@import '../variables/Mixins'
 
 .navbar 
     background-color: $colorFour
@@ -12,16 +13,19 @@ img
     width: 45px
 
 .menuBars
+    height: 100%
+    display: flex
+    align-items: center
     margin-left: 2rem
-    font-size: 2rem
     background: none
 
 .navMenu
     display: none
+    
 
 .navMenuActive 
     background-color: $colorFour
-    width: 250px
+    width: 285px
     height: 100vh
     display: flex
     justify-content: center
@@ -29,35 +33,43 @@ img
     top: 0
     left: 0%
     transition: 850ms
+    overflow: auto
+
+    @include custom-scroll-bar
 
 .navItem
     display: flex
     justify-content: start
     align-items: center
-    padding: 8px 0 8px 16px
+    padding: 1rem
     list-style: none
-    height: 60px
+    height: auto
 
     a 
         text-decoration: none
         color: $colorTwo
-        font-size: 1.2rem
+        font-family: $fontTwo
+        letter-spacing: 1px
+        font-size: 1.4rem
         width: 95%
-        height: 100%
+        height: 60px
         display: flex
         align-items: center
-        padding: 0 1rem
+        padding-left: 1rem
         border-radius: 4px
+        transition: all .2s ease-in
 
     a:hover 
-            background-color: #1a83ff
+        transition: all .2s ease-in
+        color: $colorOne
+        background-color: $colorFive
 
 .navList
     width: 100%
 
 .navToggle
-    background-color: $colorFour
-    width: 100%
+    // background-color: $colorFour
+    // width: 100%
     height: 80px
     display: flex
     justify-content: start

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 
 import  { NavData } from '../data/SideNavData'
 
-import iconOne from '../icons/052-menu.png'
-import iconTwo from '../icons/051-close.png'
+import iconOne from '../icons/menu.png'
+import iconTwo from '../icons/close.png'
 
 export const SideNav = () => {
   const [sidebar, setSidebar] = useState(false)
