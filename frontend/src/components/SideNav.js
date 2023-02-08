@@ -19,7 +19,7 @@ export const SideNav = () => {
           <img src={iconOne} onClick={showSidebar} />
         </Link>
       </div>
-      <nav className={sidebar ? 'navMenuActive' : 'navMenu'}>
+      <nav className={sidebar ? 'navMenu active' : 'navMenu'}>
         <ul className='navList' onClick={showSidebar}>
           <li className='navToggle'>
             <Link to='#' className='menuBars'>

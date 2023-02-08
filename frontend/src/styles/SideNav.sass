@@ -24,20 +24,22 @@ img
     background-color: $colorFour
     width: 285px
     height: 100vh
-    padding-bottom: 1rem
+    // padding-bottom: 1rem
     display: flex
     justify-content: center
     position: fixed
     top: 0
     left: -100%
-    transition: 850ms
+    transition: 850ms    
     overflow: auto
+
+    // transform: translateX(-100%)
 
     @include custom-scroll-bar
 
-.navMenuActive 
-    top: 0
-    transition: 350ms
+.navMenu.active 
+    left: 0
+    transition: 350ms 
 
 .navItem
     display: flex
