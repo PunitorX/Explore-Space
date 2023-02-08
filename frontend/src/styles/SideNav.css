@@ -22,27 +22,32 @@ img {
 }
 
 .navMenu {
-  display: none;
-}
-
-.navMenuActive {
   background-color: #3F0071;
   width: 285px;
-  height: 60vh;
+  height: 100vh;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: center;
   position: fixed;
   top: 0;
-  left: 0%;
+  left: -100%;
   transition: 850ms;
   overflow: auto;
 }
-.navMenuActive::-webkit-scrollbar {
+.navMenu::-webkit-scrollbar {
   height: 10px;
 }
-.navMenuActive::-webkit-scrollbar-thumb {
-  background-color: transparent;
-  border-top: 60px solid green;
+.navMenu::-webkit-scrollbar-track {
+  background: transparent;
+}
+.navMenu::-webkit-scrollbar-thumb {
+  background-color: #000;
+  height: 10px;
+}
+
+.navMenuActive {
+  top: 0;
+  transition: 350ms;
 }
 
 .navItem {
