@@ -20,22 +20,22 @@ export const SideNav = () => {
         </Link>
       </div>
       <nav className={sidebar ? 'navMenuActive' : 'navMenu'}>
-        <ul className='navItems'>
+        <ul className='navList' onClick={showSidebar}>
           <li className='navToggle'>
             <Link to='#' className='menuBars'>
-              <img src={iconTwo} onClick={showSidebar} />
+              <img src={iconTwo} />
             </Link>
-            {NavData.map((item, index) => {
-              return (
-               <li key={index} className={item.cName}>
+          </li>
+          {NavData.map((item, index) => {
+            return (
+              <li key={index} className={item.cName}>
                 <Link to={item.path}>
-                  <img src={item.icon} alt="" />
+                  <img src={item.icon} />
                   <span>{item.title}</span>
                 </Link>
-               </li>
-              )
-            })}
-          </li>
+              </li>
+            )
+          })}
         </ul>
       </nav>
     </>
