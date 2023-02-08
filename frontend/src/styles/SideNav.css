@@ -2,6 +2,7 @@
 .navbar {
   background-color: #3F0071;
   height: 80px;
+  width: 285px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -27,7 +28,7 @@ img {
 .navMenuActive {
   background-color: #3F0071;
   width: 285px;
-  height: 100vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   position: fixed;
