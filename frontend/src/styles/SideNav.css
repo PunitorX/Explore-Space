@@ -35,6 +35,7 @@ img {
 }
 .navMenu::-webkit-scrollbar {
   height: 10px;
+  width: 7px;
 }
 .navMenu::-webkit-scrollbar-track {
   background: transparent;
@@ -42,6 +43,7 @@ img {
 .navMenu::-webkit-scrollbar-thumb {
   background-color: #FB2576;
   height: 10px;
+  border-radius: 10px;
 }
 
 .navMenu.active {
