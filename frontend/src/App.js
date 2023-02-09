@@ -11,6 +11,9 @@ import HomePage from './pages/HomePage'
 import Planets from './pages/Planets/Planets'
 import Earth from './pages/Planets/Earth'
 
+// * Moons
+import Moons from './pages/Moons/Moons'
+
 // * Stars
 import Stars from './pages/Stars/Stars'
 
@@ -26,18 +29,27 @@ import Objects from './pages/Objects/Objects'
 // * Satellites
 import Satellites from './pages/Satellites/Satellites'
 
+// * Space Travel
+import SpaceTravel from './pages/Travel/SpaceTravel'
+
+// * Theories
+import Theories from './pages/Theories/Theories'
+
 function App() {
   return (
     <Router>
       <SideNav />
       <Routes>
-        {/* <Route path='/' element={<HomePage />} /> */}
+        <Route path='/' element={<HomePage />} />
 
         <Route path='/planets'>
           <Route index element={<Planets />} />
           <Route path='earth' element={<Earth />} />
         </Route>
 
+        <Route path='/theories' element={<Theories />} />
+        <Route path='/travel' element={<SpaceTravel />} />
+        <Route path='/moons' element={<Moons />} />
         <Route path='/stars' element={<Stars />} />
         <Route path='/satellites' element={<Satellites />} />
         <Route path='/astronomers' element={<Astronomers />} />

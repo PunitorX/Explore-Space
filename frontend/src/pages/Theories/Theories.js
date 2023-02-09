@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Stars() {
+export default function Theories() {
   return (
     <div>
       
