@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&display=swap");
 .navbar {
-  position: absolute;
   height: 80px;
   width: 100%;
-  background: transparent;
+  background: #150050;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -25,7 +24,7 @@ img {
 }
 
 .navMenu {
-  background-color: #6F1AB6;
+  background-color: #150050;
   width: 285px;
   height: 100vh;
   display: flex;
