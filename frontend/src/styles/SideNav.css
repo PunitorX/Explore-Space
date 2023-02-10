@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&display=swap");
 .navbar {
-  background: #333334;
+  position: absolute;
   height: 80px;
   width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
+  z-index: 999;
 }
 
 img {
