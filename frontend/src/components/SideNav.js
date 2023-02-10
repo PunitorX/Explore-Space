@@ -6,6 +6,7 @@ import  { NavData } from '../data/SideNavData'
 
 import iconOne from '../icons/menu.png'
 import iconTwo from '../icons/close.png'
+import iconThree from '../icons/loupeWhite.png'
 
 export const SideNav = () => {
   const [sidebar, setSidebar] = useState(false)
@@ -17,6 +18,9 @@ export const SideNav = () => {
       <div className='navbar'>
         <Link to='#' className='menuBars'>
           <img src={iconOne} onClick={showSidebar} />
+        </Link>
+        <Link to='#' className='search'>
+          <img src={iconThree}/>
         </Link>
       </div>
 
