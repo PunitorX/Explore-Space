@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&display=swap");
+.homeBody {
+  background-color: #3F0071;
+  height: auto;
+  width: 100%;
+}
+
+.homeContainer {
+  position: relative;
+  height: inherit;
+}
+
+.homeHeader {
+  position: relative;
+  height: 450px;
+  color: #ffffff;
+}
+
+.homeCards {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.homeTimeline {
+  position: relative;
+  color: #ffffff;
+}/*# sourceMappingURL=HomePage.css.map */

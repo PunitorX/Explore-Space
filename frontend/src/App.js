@@ -40,7 +40,7 @@ function App() {
   return (
     <Router>
       <SideNav />
-      <Video />
+      {/* <Video /> */}
       <Routes>
         <Route path='/' element={<HomePage />} />
 
