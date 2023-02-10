@@ -1,4 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&display=swap");
 * {
+  background-color: #333334;
   box-sizing: border-box;
   width: 100%;
   padding: 0;
