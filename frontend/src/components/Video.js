@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import VideoI from '../videos/earth.mp4'
 import VideoII from '../videos/system.mp4'
 import VideoIII from '../videos/farOut.mp4'
+import VideoIV from '../videos/stars.mp4'
 import '../styles/Video.css'
 
 export default function Video({src, isMuted}) {
@@ -25,7 +26,7 @@ export default function Video({src, isMuted}) {
     <body className='homePage'>
       <div className='media'>
         <video className="mediaContainer" autoPlay ref={refVideo} muted loop>
-          <source src={VideoIII} type='video/mp4'/>
+          <source src={VideoIV} type='video/mp4'/>
         </video>
       </div>
     </body>

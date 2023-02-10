@@ -3,7 +3,7 @@
   position: absolute;
   height: 80px;
   width: 100%;
-  background: #333334;
+  background: transparent;
   display: flex;
   justify-content: start;
   align-items: center;

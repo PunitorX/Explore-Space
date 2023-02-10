@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import  { NavData } from '../data/SideNavData'
+import Video from '../components/Video'
 
 import iconOne from '../icons/menu.png'
 import iconTwo from '../icons/close.png'
@@ -23,6 +24,8 @@ export const SideNav = () => {
           <img src={iconThree}/>
         </Link>
       </div>
+
+      <Video />
 
       <nav className={sidebar ? 'navMenu active' : 'navMenu'}>
         <ul className='navList' onClick={showSidebar}>
