@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&display=swap");
 .navbar {
-  background: #3F0071;
+  background: #333334;
   height: 80px;
   width: 100%;
   display: flex;
@@ -23,7 +23,7 @@ img {
 }
 
 .navMenu {
-  background-color: #3F0071;
+  background-color: #333334;
   width: 285px;
   height: 100vh;
   display: flex;
