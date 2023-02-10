@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&display=swap");
-.homePage {
+.media {
   height: 100vh;
   background-color: #1A1A1A;
 }
 
-.media {
+.video {
   height: 100%;
   width: 100%;
 }
 
-.mediaContainer {
+.videoContainer {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;

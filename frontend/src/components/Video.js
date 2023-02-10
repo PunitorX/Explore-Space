@@ -23,12 +23,12 @@ export default function Video({src, isMuted}) {
     }, [src])
 
   return (
-    <body className='homePage'>
-      <div className='media'>
-        <video className="mediaContainer" autoPlay ref={refVideo} muted loop>
+    <div className='media'>
+      <div className='video'>
+        <video className="videoContainer" autoPlay ref={refVideo} muted loop>
           <source src={VideoIV} type='video/mp4'/>
         </video>
       </div>
-    </body>
+    </div>
   )
 }

@@ -25,8 +25,6 @@ export const SideNav = () => {
         </Link>
       </div>
 
-      <Video />
-
       <nav className={sidebar ? 'navMenu active' : 'navMenu'}>
         <ul className='navList' onClick={showSidebar}>
           <li className='navToggle'>
