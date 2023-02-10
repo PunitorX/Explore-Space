@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 // * Component Imports
 import { SideNav } from './components/SideNav';
+import Video from './components/Video';
 
 // * Page Imports
 import HomePage from './pages/HomePage'
@@ -39,6 +40,7 @@ function App() {
   return (
     <Router>
       <SideNav />
+      <Video />
       <Routes>
         <Route path='/' element={<HomePage />} />
 
