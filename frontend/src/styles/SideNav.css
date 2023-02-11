@@ -1,26 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&display=swap");
-.navbar {
-  height: 80px;
-  width: 100%;
-  background: #150050;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  z-index: 999;
-}
-
 img {
   height: 45px;
   width: 45px;
   cursor: pointer;
 }
 
+.navbar {
+  height: 80px;
+  background: #150050;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  z-index: 999;
+}
+
 .menuBars {
   height: 100%;
   display: flex;
   align-items: center;
-  margin-left: 2rem;
   cursor: default;
+}
+
+.search {
+  padding: 0 2rem;
+}
+.search img {
+  height: 30px;
+  width: 30px;
 }
 
 .navMenu {
@@ -91,6 +97,7 @@ img {
   display: flex;
   justify-content: start;
   align-items: center;
+  padding-left: 2rem;
 }
 
 span {

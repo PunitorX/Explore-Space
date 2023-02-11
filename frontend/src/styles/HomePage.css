@@ -2,14 +2,11 @@
 .homeBody {
   background-color: #3F0071;
   height: auto;
-  width: 100%;
 }
 
 .homeContainer {
   position: relative;
   height: inherit;
-  margin: 0 2rem 0 2rem;
-  padding: 0 2rem 0 2rem;
 }
 
 .homeHeader {
