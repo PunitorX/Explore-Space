@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import '../styles/HomePage.css'
-
-import Video from '../components/Video'
 import ViewCard from '../components/Cards/ViewCard'
+
+const Video = React.lazy(() => import ('../components/Video'))
 
 export default function HomePage() {
   return (
@@ -10,7 +10,9 @@ export default function HomePage() {
     <body className='homeBody'>
       <div className='homeContainer'>
 
-        <Video />
+        <Suspense fallback={<div>Loading...</div>}>
+          <Video />
+        </Suspense>
         
         <div className='homeHeader'>
           <h1>
