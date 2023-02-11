@@ -10,9 +10,9 @@ export default function HomePage() {
     <body className='homeBody'>
       <div className='homeContainer'>
 
-        <Suspense fallback={<div>Loading...</div>}>
+        {/* <Suspense fallback={<div>Loading...</div>}>
           <Video />
-        </Suspense>
+        </Suspense> */}
         
         <div className='homeHeader'>
           <h1>

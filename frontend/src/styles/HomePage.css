@@ -8,6 +8,8 @@
 .homeContainer {
   position: relative;
   height: inherit;
+  margin: 0 2rem 0 2rem;
+  padding: 0 2rem 0 2rem;
 }
 
 .homeHeader {
@@ -25,5 +27,6 @@
 
 .homeTimeline {
   position: relative;
+  height: 600px;
   color: #ffffff;
 }/*# sourceMappingURL=HomePage.css.map */
