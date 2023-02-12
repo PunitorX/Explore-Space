@@ -51,9 +51,25 @@ img
         font-family: $fontTwo
         text-decoration: none
 
-    a:hover 
+        &:hover 
             color: $colorTen
             transition: all .2s ease-in
+        
+        &:after
+            content: ''
+            display: block
+            margin: auto
+            border-radius: 5px
+            height: 3px
+            width: 5px
+            background: transparent
+            transition: width .5s ease, background-color .5s ease
+
+        &:hover:after
+            width: 100%
+            background: $colorTwo
+
+    
 
 // ! End Navbar
 
@@ -101,7 +117,7 @@ img
 
     a:hover 
         transition: all .2s ease-in
-        background-color: $colorFive
+        background-color: $colorFive 
 
 .navList
     width: 100%

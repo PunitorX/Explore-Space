@@ -28,10 +28,10 @@ export const SideNav = () => {
         
         <div className='rightside'>
           <Link to='#' className='timeline'>
-            <span>Timeline</span>
+            Timeline
           </Link>
           <Link to='#' className='support'>
-            <span>Help</span>
+            Help
           </Link>
 
         </div>

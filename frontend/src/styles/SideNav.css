@@ -54,6 +54,20 @@ img {
   color: #FCD900;
   transition: all 0.2s ease-in;
 }
+.rightside a:after {
+  content: "";
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  height: 3px;
+  width: 5px;
+  background: transparent;
+  transition: width 0.5s ease, background-color 0.5s ease;
+}
+.rightside a:hover:after {
+  width: 100%;
+  background: #ffffff;
+}
 
 .navMenu {
   background-color: #150050;
