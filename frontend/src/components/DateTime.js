@@ -14,7 +14,7 @@ export default function DateTime() {
 
     return (
         <>
-            <div>
+            <div className='data'>
                 <p>Date : {date.toLocaleDateString()}</p>
                 <p>Time : {date.toLocaleTimeString()}</p>
             </div>
