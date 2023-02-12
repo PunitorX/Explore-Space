@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react'
 import '../styles/HomePage.css'
 import ViewCard from '../components/Cards/ViewCard'
+import DateTime from '../components/DateTime'
 
 const Video = React.lazy(() => import ('../components/Video'))
 
@@ -17,6 +18,7 @@ export default function HomePage() {
         <div className='homeHeader'>
           <h1>
             Travel beyond our planet and into the stars.
+            <DateTime />
           </h1>
         </div>
 
