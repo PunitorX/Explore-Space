@@ -7,11 +7,15 @@ img {
 
 .navbar {
   height: 80px;
-  background: #150050;
+  background: linear-gradient(#150050 30%, #010101);
+  display: flex;
+  padding: 0 2rem;
+}
+
+.leftside {
   display: flex;
   align-items: center;
-  padding: 0 2rem;
-  z-index: 999;
+  width: 50%;
 }
 
 .menuBars {
@@ -22,11 +26,33 @@ img {
 }
 
 .search {
-  padding: 0 2rem;
+  padding-left: 3rem;
 }
 .search img {
   height: 30px;
   width: 30px;
+}
+
+.rightside {
+  margin-right: 4rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.rightside .timeline {
+  padding-right: 1rem;
+}
+.rightside a {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "Itim", cursive;
+  text-decoration: none;
+}
+.rightside a:hover {
+  color: #FCD900;
+  transition: all 0.2s ease-in;
 }
 
 .navMenu {
@@ -84,7 +110,6 @@ img {
 }
 .navItem a:hover {
   transition: all 0.2s ease-in;
-  color: #000000;
   background-color: #FB2576;
 }
 

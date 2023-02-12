@@ -17,12 +17,24 @@ export const SideNav = () => {
   return (
     <>
       <div className='navbar'>
-        <Link to='#' className='menuBars'>
-          <img src={iconOne} onClick={showSidebar} />
-        </Link>
-        <Link to='#' className='search'>
-          <img src={iconThree}/>
-        </Link>
+        <div className='leftside'>
+          <Link to='#' className='menuBars'>
+            <img src={iconOne} onClick={showSidebar} />
+          </Link>
+          <Link to='#' className='search'>
+            <img src={iconThree}/>
+          </Link>
+        </div>
+        
+        <div className='rightside'>
+          <Link to='#' className='timeline'>
+            <span>Timeline</span>
+          </Link>
+          <Link to='#' className='support'>
+            <span>Help</span>
+          </Link>
+
+        </div>
       </div>
 
       <nav className={sidebar ? 'navMenu active' : 'navMenu'}>
