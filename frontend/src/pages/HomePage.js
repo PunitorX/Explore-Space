@@ -15,19 +15,22 @@ export default function HomePage() {
           <Video />
         </Suspense>
         
-        <section className='homeHeader'>
+        <section className='sectionHeader'>
           <h1>
             Travel beyond our planet and into the stars
           </h1>
           <DateTime />
         </section>
 
-        <section className='homeCards'>
-          <ViewCard />
+        <section className='sectionCards'>
+          <h2>Explore these categories</h2>
+          <div className='cardsFlex'>
+            <ViewCard />
+          </div>
         </section>
 
-        <section className='homeTimeline'>
-          Timeline
+        <section className='sectionTimeline'>
+          <h2>Timeline</h2>
         </section>
 
       </div>

@@ -8,10 +8,19 @@
     position: relative
     height: inherit
 
+    h2
+        font-family: $fontTwo
+        font-size: 3rem
+        letter-spacing: 1.3px
+        text-transform: capitalize
+        margin-bottom: 1.4rem
+        padding-left: 2rem
+        color: $colorTwo
+
 // ? Should I add more info to the header
 // ? Add current constellation in the sky?
-// * Top of  Home Page
-.homeHeader
+// * Begin Header Section
+.sectionHeader
     position: relative
     height: 375px
     color: $colorTwo
@@ -45,16 +54,29 @@
 
         span
             color: $colorFive
-    
-// * Home Page Body
-.homeCards
-    position: relative
-    display: flex
-    justify-content: center
-    flex-wrap: wrap
 
-// * Space Timeline
-.homeTimeline
+// * End Header Section
+    
+// * Begin Card Section
+.sectionCards
+    position: relative
+    margin: 0 4rem
+    padding: 0 2rem
+    // display: flex
+    // flex-direction: column
+    // align-items: center
+
+.cardsFlex
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+
+// * End Card Section
+
+// * Begin Timeline Section
+.sectionTimeline
     position: relative
     height: 600px
-    color: $colorTwo
+    margin: 0 4rem
+    padding: 0 2rem

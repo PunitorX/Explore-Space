@@ -8,8 +8,17 @@
   position: relative;
   height: inherit;
 }
+.homeContainer h2 {
+  font-family: "Itim", cursive;
+  font-size: 3rem;
+  letter-spacing: 1.3px;
+  text-transform: capitalize;
+  margin-bottom: 1.4rem;
+  padding-left: 2rem;
+  color: #ffffff;
+}
 
-.homeHeader {
+.sectionHeader {
   position: relative;
   height: 375px;
   color: #ffffff;
@@ -20,7 +29,7 @@
   text-transform: uppercase;
   font-family: "Trispace", sans-serif;
 }
-.homeHeader h1 {
+.sectionHeader h1 {
   background: linear-gradient(to right, #FB2576, #1a83ff);
   -webkit-background-clip: text;
           background-clip: text;
@@ -32,7 +41,7 @@
   margin: 2rem auto;
   text-align: center;
 }
-.homeHeader .data {
+.sectionHeader .data {
   font-size: 1.4rem;
   color: #1a83ff;
   letter-spacing: 1.2px;
@@ -41,19 +50,25 @@
   display: flex;
   gap: 25px;
 }
-.homeHeader .data span {
+.sectionHeader .data span {
   color: #FB2576;
 }
 
-.homeCards {
+.sectionCards {
   position: relative;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  margin: 0 4rem;
+  padding: 0 2rem;
 }
 
-.homeTimeline {
+.cardsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sectionTimeline {
   position: relative;
   height: 600px;
-  color: #ffffff;
+  margin: 0 4rem;
+  padding: 0 2rem;
 }/*# sourceMappingURL=HomePage.css.map */
