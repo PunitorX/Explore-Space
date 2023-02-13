@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/Button Styles/ViewCard.css'
+import '../../styles/Card Styles/ViewCard.css'
 import { ViewData } from '../../data/ViewCardData'
 
 export default function ViewCard() {
