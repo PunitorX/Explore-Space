@@ -8,11 +8,43 @@
     position: relative
     height: inherit
 
+// ? Should I add more info to the header
+// ? Add current constellation in the sky?
 // * Top of  Home Page
 .homeHeader
     position: relative
-    height: 450px
+    height: 375px
     color: $colorTwo
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-transform: uppercase
+    font-family: $fontSix
+
+    h1
+        background: linear-gradient(to right, $colorFive, $colorTwelve)
+        background-clip: text
+        color: transparent
+        font-size: 3.2rem
+        // color: linear-gradient($colorFive, $colorTwelve)
+        letter-spacing: 1.4px
+        height: 45%
+        width: 50%
+        margin: 2rem auto
+        text-align: center
+
+    .data
+        font-size: 1.4rem
+        color: $colorTwelve
+        letter-spacing: 1.2px
+        margin-top: 2rem
+        height: 55%
+        display: flex
+        gap: 25px
+
+        span
+            color: $colorFive
     
 // * Home Page Body
 .homeCards

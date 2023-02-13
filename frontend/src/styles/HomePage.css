@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&family=Trispace:wght@400;600;700;800&display=swap");
 .homeBody {
   background-color: #3F0071;
   height: auto;
@@ -11,8 +11,38 @@
 
 .homeHeader {
   position: relative;
-  height: 450px;
+  height: 375px;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Trispace", sans-serif;
+}
+.homeHeader h1 {
+  background: linear-gradient(to right, #FB2576, #1a83ff);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  font-size: 3.2rem;
+  letter-spacing: 1.4px;
+  height: 45%;
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+}
+.homeHeader .data {
+  font-size: 1.4rem;
+  color: #1a83ff;
+  letter-spacing: 1.2px;
+  margin-top: 2rem;
+  height: 55%;
+  display: flex;
+  gap: 25px;
+}
+.homeHeader .data span {
+  color: #FB2576;
 }
 
 .homeCards {

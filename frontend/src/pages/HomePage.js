@@ -15,20 +15,20 @@ export default function HomePage() {
           <Video />
         </Suspense>
         
-        <div className='homeHeader'>
+        <section className='homeHeader'>
           <h1>
-            Travel beyond our planet and into the stars.
-            <DateTime />
+            Travel beyond our planet and into the stars
           </h1>
-        </div>
+          <DateTime />
+        </section>
 
-        <div className='homeCards'>
+        <section className='homeCards'>
           <ViewCard />
-        </div>
+        </section>
 
-        <div className='homeTimeline'>
+        <section className='homeTimeline'>
           Timeline
-        </div>
+        </section>
 
       </div>
     </body>
