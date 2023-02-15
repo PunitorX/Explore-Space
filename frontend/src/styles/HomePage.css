@@ -30,10 +30,7 @@
   font-family: "Trispace", sans-serif;
 }
 .sectionHeader h1 {
-  background: linear-gradient(to right, #FB2576, #1a83ff);
-  -webkit-background-clip: text;
-          background-clip: text;
-  color: transparent;
+  color: #ffffff;
   font-size: 3.2rem;
   letter-spacing: 1.4px;
   height: 45%;
