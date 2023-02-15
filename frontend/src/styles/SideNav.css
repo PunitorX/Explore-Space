@@ -7,7 +7,7 @@ img {
 
 .navbar {
   height: 80px;
-  background: linear-gradient(#150050 30%, #010101);
+  background: linear-gradient(#333334 30%, #010101);
   display: flex;
   padding: 0 2rem;
 }
@@ -51,7 +51,7 @@ img {
   text-decoration: none;
 }
 .rightside a:hover {
-  color: #FCD900;
+  color: #210535;
   transition: all 0.2s ease-in;
 }
 .rightside a:after {
@@ -70,7 +70,7 @@ img {
 }
 
 .navMenu {
-  background-color: #150050;
+  background-color: #333334;
   width: 285px;
   height: 100vh;
   display: flex;
@@ -124,7 +124,7 @@ img {
 }
 .navItem a:hover {
   transition: all 0.2s ease-in;
-  background-color: #FB2576;
+  background-color: #1a83ff;
 }
 
 .navList {

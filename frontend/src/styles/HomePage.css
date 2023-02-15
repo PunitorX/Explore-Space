@@ -40,7 +40,7 @@
 }
 .sectionHeader .data {
   font-size: 1.4rem;
-  color: #1a83ff;
+  color: #6F1AB6;
   letter-spacing: 1.2px;
   margin-top: 2rem;
   height: 55%;
@@ -48,7 +48,7 @@
   gap: 25px;
 }
 .sectionHeader .data span {
-  color: #FB2576;
+  color: #1a83ff;
 }
 
 .sectionCards {
