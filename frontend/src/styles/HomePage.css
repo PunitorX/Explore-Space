@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Itim&family=Lato:ital@1&family=Montserrat&family=Roboto+Slab&family=Trispace:wght@400;600;700;800&display=swap");
 .homeBody {
-  background-color: #010101;
+  background-color: #000000;
   height: auto;
 }
 
@@ -40,7 +40,7 @@
 }
 .sectionHeader .data {
   font-size: 1.4rem;
-  color: #6F1AB6;
+  color: #FB2576;
   letter-spacing: 1.2px;
   margin-top: 2rem;
   height: 55%;
